@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عرض فيديو بمقاس جوال</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f3f3f3;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 400px; /* لضمان مقاس مناسب للجوال */
+      text-align: center;
+      margin: 20px auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-title {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .footer {
+      padding: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="video-title">hhh</div>
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+    </video>
+    <div class="footer">© 2024 - فيديو بمقاس جوال</div>
+  </div>
+</body>
+</html>
